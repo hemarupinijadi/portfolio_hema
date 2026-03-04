@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadi Hemarupini — Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">JH<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for internships
+      </div>
+      <h1 class="hero-name">
+        <span class="name-line">Jadi <span class="gradient-text">Hemarupini</span></span>
+      </h1>
+      <p class="hero-title">Full Stack Developer</p>
+      <p class="hero-meta">CSE @ IIIT Kottayam <span class="sep">•</span> Batch 2027</p>
+      <p class="hero-desc">
+        I build clean, scalable and user-focused web applications.<br />
+        Passionate about problem solving and modern technologies.<br />
+        Open to internship opportunities.
+      </p>
+      <div class="hero-actions">
+        <a href="Hemarupini_Resume.pdf" download="Hemarupini_Resume.pdf" class="btn btn-primary">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <a href="https://github.com/hemarupinijadi" target="_blank" class="btn btn-ghost">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/jadi-hemarupini-4bb4b5342/" target="_blank" class="btn btn-ghost">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">01 — About</p>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo-col reveal">
+          <div class="photo-frame">
+            <img src="photo.jpeg" alt="Jadi Hemarupini" style="width:220px;height:220px;border-radius:50%;object-fit:cover;object-position:center top;position:relative;z-index:1;border:2px solid rgba(56,189,248,0.2);" />
+            <div class="photo-ring"></div>
+            <div class="photo-accent"></div>
+          </div>
+        </div>
+        <div class="about-text-col reveal">
+          <h3 class="about-heading">Hi, I'm Hemarupini <span class="wave">👋</span></h3>
+          <p class="about-para">
+            I'm a <strong>3rd year Computer Science and Engineering student</strong> at IIIT Kottayam (Batch 2027), passionate about building meaningful digital experiences. I love blending clean design with robust backend logic to create applications that are both functional and delightful to use.
+          </p>
+          <p class="about-para">
+            From deep learning models to full-stack web apps, I enjoy tackling complex problems and turning them into elegant solutions. I'm always learning, always building.
+          </p>
+          <div class="info-cards">
+            <div class="info-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-value">+91 9347226585</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">hemarupinijadi@gmail.com</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Telangana, India</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-language"></i>
+              <div>
+                <span class="info-label">Languages</span>
+                <span class="info-value">English, Telugu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">02 — Projects</p>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+        <h3 class="project-title">Tomato Crop Disease Detection Using CNN</h3>
+        <ul class="project-desc">
+          <li>Developed a CNN deep learning model to detect <strong>10 tomato leaf diseases</strong> with high accuracy.</li>
+          <li>Created an intuitive <strong>Tkinter GUI</strong> for uploading leaf images and predicting disease type in real time.</li>
+          <li>Applied advanced <strong>preprocessing and data augmentation</strong> techniques to improve model generalization.</li>
+        </ul>
+        <div class="project-tech">
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">Keras</span>
+          <span class="tech-badge">NumPy</span>
+          <span class="tech-badge">PIL</span>
+          <span class="tech-badge">Tkinter</span>
+        </div>
+        <a href="https://github.com/hemarupinijadi/tomato-crop-disease-detection" target="_blank" class="btn btn-primary project-btn">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+        <div class="project-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">03 — Skills</p>
+        <h2 class="section-title">Tech Stack</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon"><i class="fas fa-code"></i></div>
+          <h4 class="skill-group-title">Programming Languages</h4>
+          <div class="skill-list">
+            <div class="skill-item"><span>Python</span></div>
+            <div class="skill-item"><span>C</span></div>
+            <div class="skill-item"><span>SQL</span></div>
+            <div class="skill-item"><span>JavaScript</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon"><i class="fas fa-globe"></i></div>
+          <h4 class="skill-group-title">Web Technologies</h4>
+          <div class="skill-list">
+            <div class="skill-item"><span>HTML</span></div>
+            <div class="skill-item"><span>CSS</span></div>
+            <div class="skill-item"><span>JavaScript</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon"><i class="fas fa-database"></i></div>
+          <h4 class="skill-group-title">Databases &amp; Tools</h4>
+          <div class="skill-list">
+            <div class="skill-item"><span>MySQL</span></div>
+            <div class="skill-item"><span>DBMS</span></div>
+            <div class="skill-item"><span>Git &amp; GitHub</span></div>
+            <div class="skill-item"><span>VS Code</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon"><i class="fas fa-brain"></i></div>
+          <h4 class="skill-group-title">Core CS &amp; Soft Skills</h4>
+          <div class="skill-list">
+            <div class="skill-item"><span>Data Structures</span></div>
+            <div class="skill-item"><span>Problem Solving</span></div>
+            <div class="skill-item"><span>Logical Thinking</span></div>
+            <div class="skill-item"><span>Quick Learner</span></div>
+            <div class="skill-item"><span>Teamwork</span></div>
+            <div class="skill-item"><span>Adaptability</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">04 — Contact</p>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-sub">Have a project in mind or want to discuss opportunities? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-cards-grid reveal">
+
+        <a href="mailto:hemarupinijadi@gmail.com" class="contact-big-card">
+          <div class="cbc-icon"><i class="fas fa-envelope"></i></div>
+          <div class="cbc-content">
+            <p class="cbc-label">Email</p>
+            <p class="cbc-value">hemarupinijadi@gmail.com</p>
+          </div>
+          <i class="fas fa-arrow-right cbc-arrow"></i>
+        </a>
+
+        <a href="tel:+919347226585" class="contact-big-card">
+          <div class="cbc-icon"><i class="fas fa-phone"></i></div>
+          <div class="cbc-content">
+            <p class="cbc-label">Phone</p>
+            <p class="cbc-value">+91 9347226585</p>
+          </div>
+          <i class="fas fa-arrow-right cbc-arrow"></i>
+        </a>
+
+        <a href="https://github.com/hemarupinijadi" target="_blank" class="contact-big-card">
+          <div class="cbc-icon"><i class="fab fa-github"></i></div>
+          <div class="cbc-content">
+            <p class="cbc-label">GitHub</p>
+            <p class="cbc-value">github.com/hemarupinijadi</p>
+          </div>
+          <i class="fas fa-arrow-right cbc-arrow"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jadi-hemarupini-4bb4b5342/" target="_blank" class="contact-big-card">
+          <div class="cbc-icon"><i class="fab fa-linkedin"></i></div>
+          <div class="cbc-content">
+            <p class="cbc-label">LinkedIn</p>
+            <p class="cbc-value">linkedin.com/in/hemarupini-jadi</p>
+          </div>
+          <i class="fas fa-arrow-right cbc-arrow"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Jadi Hemarupini</p>
+      <p class="footer-copy">© 2026 Jadi Hemarupini · All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
